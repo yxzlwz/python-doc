@@ -14,15 +14,14 @@ module.exports = {
     theme: "reco",
     themeConfig: {
         nav: [
-            { text: "语雀", link: "https://www.yuque.com/yxzl/python" },
             { text: "异想之旅", link: "https://www.yixiangzhilv.com/" },
-            { text: "青岛中学HCC项目开发社团", link: "https://www.qdzx.icu/" },
+            { text: "GitHub", link: "https://github.com/yxzlwz/python-doc" },
             ...nav,
         ],
         sidebar,
         noFoundPageByTencent: false,
         subSidebar: "false",
-        author: "异想之旅, 青岛中学HCC项目开发社团",
+        author: "异想之旅 & 青岛中学HCC项目开发社团",
     },
     markdown: {
         lineNumbers: true,
